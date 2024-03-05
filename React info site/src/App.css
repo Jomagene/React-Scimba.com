@@ -1,0 +1,77 @@
+body {
+  font-family: poppins;
+  background-image: url(./assets/bgI.jpg);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  font-size: 14px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: darkolivegreen;
+  color: white;
+  font-size: 14px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.footer p {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 50px;
+}
+
+#root {
+  height: fit-content;
+  width: 350px;
+  background-color: #fff;
+  margin-top: 50px;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+  opacity: 0.5;
+  background-color: rgba(00, 00, 00, 0.5);
+  gap: 5px;
+}
+.top-header img {
+  height: 12px;
+}
+
+.pad20 {
+  padding: 0 20px 0;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.facts {
+  margin: 30px 5px;
+  font-size: 16px;
+}
